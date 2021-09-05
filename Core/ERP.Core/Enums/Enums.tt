@@ -1,0 +1,79 @@
+﻿<#@ template debug="true" hostSpecific="true" #>
+<#@ output extension=".cs" #>
+<#@ Assembly Name="System.Data" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+using System;
+using System.ComponentModel;
+
+namespace ERP.Core
+{
+<#
+    //string path = Path.GetDirectoryName(this.Host.TemplateFile);
+    //DirectoryInfo d = new DirectoryInfo(path.Replace("Enums","") + @"Entities");
+    //FileInfo[] Files = d.GetFiles("*.cs");
+
+    //foreach(FileInfo file in Files )
+    /*
+    Schema kullanımından dolayı sql ile kendim string[] olarak ekledim
+    SELECT '['+SCHEMA_NAME(schema_id)+'].['+name+']' AS SchemaTable
+    FROM sys.tables
+    WHERE name LIKE '%Tip%' OR name LIKE '%Durum%' OR name LIKE '%Tur%'
+    ORDER BY SCHEMA_NAME(schema_id), name ASC
+    */
+    string[] tablolar = new string[] {"Finans.bankaHesapTur","Finans.firmaTur","Ortak.eFaturaTur","Ortak.nakliyeTur","Personel.sozlesmeTur"};
+
+    foreach(string table in tablolar)
+    {
+        //var tableName = Path.GetFileNameWithoutExtension(file.Name);
+        var tableSplit = table.Split('.');
+        string tableName = tableSplit[1].Replace("]","").Replace("[","");
+        string columnId = "id";
+        string columnName = "adi";
+        string connectionString = "Server=185.198.74.119;Database=ERPDB;User Id=sserp; Password=Erp-post*-ss;";
+#>
+<#
+    SqlConnection conn = new SqlConnection(connectionString);
+    string command = string.Format("SELECT {0}, {1} FROM {2} ORDER BY {0} ASC", columnId, columnName, table);
+    SqlCommand comm = new SqlCommand(command, conn);
+
+    conn.Open();
+
+    SqlDataReader reader = comm.ExecuteReader();
+    bool loop = reader.Read();
+#>    
+    public enum Enm<#= tableName #>
+    {
+<# while(loop)
+    {
+#>
+        [Description("<#= reader[columnName] #>")]
+        <#= Pascalize(reader[columnName]) #> = <#= reader[columnId] #><# loop = reader.Read(); #><#= loop ? ",\r\n" : string.Empty #>
+<#
+    }
+#>
+    }
+<#
+}
+#>
+}
+<#+
+    private string Pascalize(object strValue)
+        {
+            string value = System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(strValue.ToString().ToLowerInvariant());
+            //value = Regex.Replace(value, @"[\d-]", string.Empty);
+            Regex rgx = new Regex("[^a-zığüşöçA-ZİĞÜŞÖÇ0-9 -]");
+            value = rgx.Replace(value, "");
+            char[] turkishChars = new char[] { 'ı', 'ğ', 'ü', 'ş', 'ö', 'ç', 'Ğ', 'Ü', 'Ş', 'İ', 'Ö', 'Ç' };
+            char[] engChars = new char[] { 'i', 'g', 'u', 's', 'o', 'c', 'G', 'U', 'S', 'I', 'O', 'C' };
+            value = value.Replace(" ", string.Empty);
+            value = value.Replace("-", string.Empty);
+            for (int i = 0; i < turkishChars.Length; i++)
+            {
+                value = value.Replace(turkishChars[i], engChars[i]);
+            }
+            return value;
+        }
+#>

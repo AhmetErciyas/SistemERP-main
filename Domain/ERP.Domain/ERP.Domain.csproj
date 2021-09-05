@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ERP.Core\ERP.Core.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Data\ERP.Data\ERP.Data.csproj" />
+    <ProjectReference Include="..\ERP.Domain.Core\ERP.Domain.Core.csproj" />
+    <ProjectReference Include="..\ERP.Domain.RuleEngine\ERP.Domain.RuleEngine.csproj" />
+    <ProjectReference Include="..\ERP.Domain.ServiceClient\ERP.Domain.ServiceClient.csproj" />
+  </ItemGroup>
+
+</Project>

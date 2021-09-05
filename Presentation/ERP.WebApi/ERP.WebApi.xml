@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ERP.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ERP.WebApi.Controllers.FirmaController.FirmaTurGetir(System.Byte)">
+            <summary>
+            Id'si verilen FirmaTur getirir.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ERP.WebApi.Controllers.FirmaController.FirmaTurListele">
+            <summary>
+            FirmaTur listesi getirir.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,354 @@
+﻿
+    
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\GenelOzelliklerRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IGenelOzelliklerRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\RotaRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IRotaRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\AsgariUcretRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IAsgariUcretRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\SubeRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\ISubeRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\StokHareketTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IStokHareketTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\IsEmriRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IIsEmriRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\IstasyonRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IIstasyonRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\dbo\SiparisTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\dbo\ISiparisTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\KaliteKontrolRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IKaliteKontrolRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\IstenAyrilmaNedenleriRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IIstenAyrilmaNedenleriRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\BankaRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IBankaRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\OperasyonRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IOperasyonRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\BankaAdresRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IBankaAdresRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\OperasyonIstasyonRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IOperasyonIstasyonRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\DepoRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IDepoRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\BankaHesapRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IBankaHesapRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\BankaHesapTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IBankaHesapTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\IstasyonUretimRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IIstasyonUretimRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\StokHareketRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IStokHareketRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\CariKartRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\ICariKartRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\OperasyonIstasyonUretimRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IOperasyonIstasyonUretimRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\FirmaTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IFirmaTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\ParametrelerRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IParametrelerRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\FirmaYonRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IFirmaYonRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\OdemePlanRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IOdemePlanRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelDepartmanRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelDepartmanRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\OdemePlanSatirRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IOdemePlanSatirRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\MalzemeIslemTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IMalzemeIslemTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\BolumRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IBolumRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\DepartmanRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IDepartmanRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\FabrikaRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IFabrikaRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\FirmaRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IFirmaRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\FirmaAdresRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IFirmaAdresRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\FirmaAdresTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IFirmaAdresTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\FirmaIletisimRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IFirmaIletisimRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Finans\FirmaIletisimTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Finans\IFirmaIletisimTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\OrganizasyonRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IOrganizasyonRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Firma\OrganizasyonSatirRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Firma\IOrganizasyonSatirRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\AmbarRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IAmbarRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\UnvanRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IUnvanRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\EFaturaTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IEFaturaTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\GrupRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IGrupRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\FiyatListeTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IFiyatListeTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\IlRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IIlRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\IlceRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IIlceRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\NakliyeTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\INakliyeTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\PaketlemeKodRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IPaketlemeKodRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\YetkilerRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IYetkilerRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\ParaBirimRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IParaBirimRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\ParaBirimiTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IParaBirimiTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\YetkiGruplariRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IYetkiGruplariRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\PostaKoduRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IPostaKoduRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\YetkiGruplariDetayRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IYetkiGruplariDetayRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelKimlikRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelKimlikRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\VergiDaireRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IVergiDaireRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\AskerlikDurumRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IAskerlikDurumRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\KullaniciYetkileriRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IKullaniciYetkileriRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\MalzemeRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IMalzemeRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\EkGelirGiderTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IEkGelirGiderTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\EngellilikDurumRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IEngellilikDurumRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Ortak\UlkeRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Ortak\IUlkeRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\KademeRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IKademeRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\KimlikTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IKimlikTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Uretim\ReceteRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Uretim\IReceteRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\StokTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IStokTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\OgrenimDurumRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IOgrenimDurumRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelMaasRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelMaasRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\OzelSigortaTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IOzelSigortaTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\BirimRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IBirimRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\MalzemeOzellikleriRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\IMalzemeOzellikleriRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelAgiRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelAgiRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Kullanici\KullaniciRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Kullanici\IKullaniciRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelEmeklilikRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelEmeklilikRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelTabiKanunRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelTabiKanunRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelKanunRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelKanunRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\DigerBilgilerRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IDigerBilgilerRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelMaasOdemeTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelMaasOdemeTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelMaasPeriyotRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelMaasPeriyotRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\PersonelBankaHesapRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IPersonelBankaHesapRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\SigortaDurumRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\ISigortaDurumRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\SigortaTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\ISigortaTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\SosyalGuvenlikKurumRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\ISosyalGuvenlikKurumRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\SozlesmeTurRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\ISozlesmeTurRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\dbo\SysdiagramsRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\dbo\ISysdiagramsRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Stok\TevkifatKoduRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Stok\ITevkifatKoduRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\EkGelirGiderAciklamaRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IEkGelirGiderAciklamaRepository.cs
+        
+
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Repository\Personel\EkGelirGiderRepository.cs
+        C:\Users\kubil\source\repos\SistemERP\Infrastructure\Data\ERP.Data\Interfaces\Personel\IEkGelirGiderRepository.cs
+        

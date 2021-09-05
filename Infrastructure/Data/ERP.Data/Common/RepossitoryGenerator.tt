@@ -1,0 +1,87 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ output extension=".txt" #>
+<#@ Assembly Name="System" #>
+<#@ Assembly Name="System.Data" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Globalization" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+
+<#
+    string connectionString = "Server=185.198.74.119;Database=ERPDB;User Id=sserp; Password=Erp-post*-ss;";
+#>
+<#
+    SqlConnection conn = new SqlConnection(connectionString);
+    string command = string.Format("SELECT TABLE_SCHEMA, TABLE_NAME FROM  ERPDB.INFORMATION_SCHEMA.TABLES");
+    SqlCommand comm = new SqlCommand(command, conn);
+    conn.Open();
+    SqlDataReader reader = comm.ExecuteReader();
+    bool loop = reader.Read();
+#>    
+
+<# while(loop)
+    {
+        TextInfo myTI = new CultureInfo("en-US",false).TextInfo;
+        string schemaName = reader[0].ToString();
+        string entityName = reader[1].ToString();
+        string tableName = myTI.ToTitleCase(reader[1].ToString().Substring(0, 1))+reader[1].ToString().Substring(1);
+        string projectName = Path.GetDirectoryName(this.Host.TemplateFile).Replace("Common","");
+        string schemaPath = projectName+@"Repository\"+schemaName;
+        string repositoryFile = schemaPath+@"\"+tableName+"Repository.cs";
+        string schemaInterfacePath = projectName+@"Interfaces\"+schemaName;
+        string interfaceFile = schemaInterfacePath+@"\I"+tableName+"Repository.cs";
+        
+        if (!Directory.Exists(schemaPath))
+        {
+           DirectoryInfo di = Directory.CreateDirectory(schemaPath);
+        }
+        if (!Directory.Exists(schemaInterfacePath))
+        {
+           DirectoryInfo di = Directory.CreateDirectory(schemaInterfacePath);
+        }
+        
+        if (!File.Exists(repositoryFile) && entityName != "sysdiagrams")
+        {
+            string repositoryText = @"using ERP.Data.Entities;"+ Environment.NewLine +
+                "using ERP.Data.Interfaces;"+ Environment.NewLine + Environment.NewLine +
+                "namespace ERP.Data.Repository"+ Environment.NewLine +
+                "{"+ Environment.NewLine +
+                    "   public class "+tableName+"Repository : BaseRepository<"+entityName+">, I"+tableName+"Repository"+ Environment.NewLine +
+                    "   {"+ Environment.NewLine +
+                        "       public "+tableName+"Repository(DataContext context)"+ Environment.NewLine +
+                            "       : base(context)"+ Environment.NewLine +
+                        "       {"+ Environment.NewLine +
+                        "       }"+ Environment.NewLine +
+                    "   }"+ Environment.NewLine +
+                "}";
+
+            using(StreamWriter sw = File.AppendText(repositoryFile))
+            {
+              sw.Write(repositoryText);                
+            }    
+        }
+
+        if(!File.Exists(interfaceFile) && entityName != "sysdiagrams")
+        {
+            string interfaceText = @"using ERP.Data.Entities;"+ Environment.NewLine + Environment.NewLine +
+                "namespace ERP.Data.Interfaces"+ Environment.NewLine +
+                "{"+ Environment.NewLine +
+                    "   public interface I"+tableName+"Repository : IRepository<"+entityName+">"+ Environment.NewLine +
+                    "   {"+ Environment.NewLine +
+                    "   }"+ Environment.NewLine +
+                "}";
+
+            using(StreamWriter sw = File.AppendText(interfaceFile))
+            {
+              sw.Write(interfaceText);                
+            }
+        }
+#>
+        <#= repositoryFile #>
+        <#= interfaceFile #>
+        <# loop = reader.Read(); #><#= loop ? "\r\n" : string.Empty #>
+<#
+    }
+#>
